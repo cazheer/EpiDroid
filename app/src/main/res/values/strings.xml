@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="project_name">EpiAndroid</string>
+    <string name="app_name">EpiDroid</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Color -->
+    <color name="epitech_color">#6E6E6E</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Menu latéral -->
+    <string-array name="menu_list_array">
+        <item>Home</item>
+        <item>Planning</item>
+        <item>Modules / Projects</item>
+        <item>Student</item>
+        <item>Trombi</item>
+        <item>Disconnect</item>
+    </string-array>
+
+    <!-- Connexion -->
+    <string name="error_server">Unable to access the server</string>
+    <string name="error_network">No network</string>
+    <string name="error_network_timeout">The server didn\'t respond in time</string>
+    <string name="error_parsing">Parsing error</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- Login page -->
+
+        <!-- Error -->
+        <string name="empty_login">The login is empty</string>
+        <string name="empty_password">The password is empty</string>
+        <string name="login_failure">Your login or password is incorrect</string>
+        <!-- Content -->
+        <string name="login">login_x</string>
+        <string name="password">Unix password</string>
+        <string name="connect">Sign in</string>
+
+    <!-- Modules parts -->
+    <string name="module_menu_all">All modules</string>
+    <string name="module_menu_subscribed">Subscribed modules</string>
+    <string name="project_menu_all">All projects</string>
+    <string name="project_menu_subscribed">Subscribed projects</string>
+
+
+    <!-- Information parts -->
+    <string name="info_menu_messages">Messages</string>
+    <string name="info_menu_alerts">Alerts</string>
+    <string name="info_menu_marks">Marks</string>
+
+    <!-- Pop up -->
+    <string name="cancel">cancel</string>
+    <string name="token">Token :</string>
+
+        <!-- Lessons -->
+        <string name="register">register</string>
+        <string name="unregister">unregister</string>
+
+        <string name="success_register">You have been successfully registered</string>
+        <string name="success_unregister">You have been successfully unregistered</string>
+
+        <!-- token -->
+        <string name="empty_token">The token is empty</string>
+        <string name="success_token">You have been successfully validated a token</string>
+
+
+</resources>

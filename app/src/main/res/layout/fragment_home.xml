@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/user_picture"
+                android:src="@drawable/anonymous"
+                android:layout_centerHorizontal="true"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:id="@+id/textView_login"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/user_picture"
+                android:layout_marginTop="8dp"
+                android:text="Login :" />
+
+            <TextView
+                android:id="@+id/textWrite_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/user_picture"
+                android:layout_toRightOf="@+id/textView_login"
+                android:layout_toEndOf="@+id/textView_login"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_name"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_login"
+                android:layout_marginTop="5dp"
+                android:text="Name :" />
+
+            <TextView
+                android:id="@+id/textWrite_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textWrite_login"
+                android:layout_toRightOf="@+id/textView_promo"
+                android:layout_toEndOf="@+id/textView_promo"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_promo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_name"
+                android:layout_marginTop="5dp"
+                android:text="Promo :" />
+
+            <TextView
+                android:id="@+id/textWrite_promo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textWrite_name"
+                android:layout_toRightOf="@+id/textView_promo"
+                android:layout_toEndOf="@+id/textView_promo"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_log"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_promo"
+                android:layout_marginTop="5dp"
+                android:text="Log time :" />
+
+            <TextView
+                android:id="@+id/textWrite_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_promo"
+                android:layout_toRightOf="@+id/textView_log"
+                android:layout_toEndOf="@+id/textView_log"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_credit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_log"
+                android:layout_marginTop="5dp"
+                android:text="Credits :" />
+
+            <TextView
+                android:id="@+id/textWrite_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_log"
+                android:layout_toRightOf="@id/textView_credit"
+                android:layout_toEndOf="@id/textView_credit"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_gpa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_credit"
+                android:layout_marginTop="5dp"
+                android:text="Gpa :" />
+
+            <TextView
+                android:id="@+id/textWrite_gpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_credit"
+                android:layout_toRightOf="@id/textView_gpa"
+                android:layout_toEndOf="@id/textView_gpa"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_cycle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_gpa"
+                android:layout_marginTop="5dp"
+                android:text="Cycle :" />
+
+            <TextView
+                android:id="@+id/textWrite_cycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_gpa"
+                android:layout_toRightOf="@id/textView_cycle"
+                android:layout_toEndOf="@id/textView_cycle"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_semester"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_cycle"
+                android:layout_marginTop="5dp"
+                android:text="Semester :" />
+
+            <TextView
+                android:id="@+id/textWrite_semester"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_cycle"
+                android:layout_toRightOf="@id/textView_semester"
+                android:layout_toEndOf="@id/textView_semester"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/textView_spices"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_semester"
+                android:layout_marginTop="5dp"
+                android:text="Spices :" />
+
+            <TextView
+                android:id="@+id/textWrite_spices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_semester"
+                android:layout_toRightOf="@id/textView_spices"
+                android:layout_toEndOf="@id/textView_spices"/>
+
+            <TextView
+                android:id="@+id/textView_last_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_spices"
+                android:layout_marginTop="5dp"
+                android:text="Last Message :" />
+
+            <TextView
+                android:id="@+id/textWrite_last_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/textView_last_message"
+                android:layout_marginLeft="16dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
